@@ -1,4 +1,4 @@
-# typescript TodoList
+# TypeScript TodoList
 
 Here's the usual todolist (yes, I've reused the same graphic for all repos of this kind), but in **TypeScript** version. The aim is to show various ways to achieve the same result. To run the project, NodeJs must be installed, which is required to run TypeScript.
 
