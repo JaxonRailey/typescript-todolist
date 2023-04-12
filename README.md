@@ -1,6 +1,6 @@
 # TypeScript TodoList
 
-Here's the usual todolist (yes, I've reused the same graphic for all repos of this kind), but in **TypeScript** version. The aim is to show various ways to achieve the same result. To run the project, NodeJs must be installed, which is required to run TypeScript.
+Here's the usual todolist (yes, I've reused the same graphic for all repos of this kind), but in **TypeScript** version. The aim is to show various ways to achieve the same result. To run the project, **NodeJS** must be installed, which is required to run TypeScript.
 
 Here's the entire procedure to run the project (assuming **NodeJS** is already installed):
 
@@ -14,12 +14,12 @@ To verify that the installation was successful, get the version of TypeScript in
 tsc -v
 ```
 
-From within the project, launch the watch command, which automatically detects any changes made to the source files, so there's no need to restart the compilation command every time changes are made to the .ts files
+From within the project, launch the `watch` command, which automatically detects any changes made to the source files, so there's no need to restart the compilation command every time changes are made to the .ts files
 ```
 tsc -w
 ```
 
-If the terminal returns the error "cannot be loaded because running scripts is disabled on this system", run this command (for Windows users only)
+If the terminal returns the error "`cannot be loaded because running scripts is disabled on this system`", run this command (**for Windows users only**)
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
